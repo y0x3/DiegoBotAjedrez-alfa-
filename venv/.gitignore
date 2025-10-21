@@ -1,0 +1,29 @@
+# 🚫 Entorno virtual
+venv/
+
+# 🐍 Archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 💾 Modelos (sube solo los necesarios)
+# *.pth   <-- se permite diegobot_model.pth
+
+# 📊 Datasets (quita esta línea si quieres subir dataset_diegobot.csv)
+*.csv
+
+# ♟️ Partidas guardadas
+partidas/
+*.pgn
+
+# Ignorar Stockfish
+stockfish/
+
+
+# 🧱 Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# 🪵 Logs y backups
+*.log
+*.bak
